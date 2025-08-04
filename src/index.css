@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* تخصيصات إضافية */
+body {
+  @apply leading-relaxed selection:bg-accent selection:text-lightText;
+}
+
+/* إخفاء scrollbar في عناصر السلايدر الأفقية عند الضرورة */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
