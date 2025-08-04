@@ -1,0 +1,24 @@
+{
+  "name": "foursan-al-aqida-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "واجهة موقع فرسان العقيدة – منصة إسلامية لنشر المقالات العلمية والردود الفقهية.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "clsx": "^2.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.10",
+    "vite": "^4.3.0"
+  }
+}
